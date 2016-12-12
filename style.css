@@ -1,0 +1,20 @@
+.widjet {
+    max-width: 240px;
+    height: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.widjet img {
+    width: 100%;
+
+}
+
+.a:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(../pics.png);
+    background-position: 21px 21px
+}
