@@ -4,46 +4,141 @@
     border-radius: 5px;
     overflow: hidden;
     background-color: #f5f6f7;
-    color: black
+    color: black;
 }
 
 .widjet img {
     width: 100%;
 }
 
-.a:before {
-    content: "";
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background: url();
-    background-position: 21px 21px
-}
-
 .widjet_info{
-    padding: 5px;
-}
-
-.widjet_info_icon img {
-    height: 18px;
-    width: 18px
+    padding: 10px;
 }
 
 .widjet_info h2{
     font-size: 18px;
-    margin: 0
+    margin: 0;
+    font-weight: 400
 }
 
 .widjet_info_icon {
-    display: inline-block
+    display: inline-block;
+    font-size: 14px;
+    color: #848687;
+    padding-right: 10px;
+}
+
+.widjet_info_icon div {
+    height: 18px;
+    width: 18px;     
+    float: left;
+    background-size: cover;
+} 
+
+.widjet_icon_repost {
+    background-image: url(./icon_repost.png);
+    
+}
+.widjet_icon_like {
+    background-image: url(./icon_like.png);
+}
+
+.widjet_icon_comment {
+    background-image: url(./icon_comment.png);       
+}
+
+.widjet_info_icon span {
+    padding-left: 3px;
 }
 
 .widjet_link {
-    border-top: solid 1px #ecedee;
-    border-bottom: solid 1px #ecedee;
+    border-top: solid 1px #ecedee;   
+    padding: 0 10px;
+    font-size: 14px;
+    margin: 0;
+    color: #848687;
+}
+
+.widjet_link a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .widjet_comments {
     background-color: #eff0f1;
-    height: 200px
+    border-top: solid 1px #ecedee;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
 }
+
+.old_widjet_comments {
+    max-height: 300px;
+    overflow: auto
+}
+
+.widjet_comments_item:before,
+.new_widjet_comment:before {
+    content: '';
+    height: 30px;
+    width: 30px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.widjet_comments_item:before {
+    background-image: url(./user_photo1.png);
+}
+.new_widjet_comment:before {
+    background-image: url(./user_photo2.png);
+}
+
+.widjet_comments_item {
+    margin-top: 5px
+}
+
+.widjet_comments_item p:first-child {
+    font-weight: bold;
+}
+
+.widjet_comments_item p {
+    padding-left: 50px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.new_widjet_comment {
+    padding-top: 5px;
+}
+
+.new_widjet_comment textarea{   
+    margin-left: 10px;
+    width: 70%;
+    height: 60px;
+    background-color: #f5f6f7;
+}
+
+
+.widjet_button_place {
+    position: relative
+}
+
+#widjet_button {
+    background: #cf1c24;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border-color: #cf1c24;
+    position: absolute;
+    right: 15px;
+    margin-top: 5px
+}
+
+
+
+

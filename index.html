@@ -4,40 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>task04</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-</head>
+  <link rel="stylesheet" href="style.css"> 
 <body>
 
     <div class="widjet">
         <img src="Matilda.png">
-        <div class="widjet_info">
+        <section class="widjet_info">
             <h2>Matilda</h2>
             <div>
                 <div class="widjet_info_icon">
-                    <img src="./icon_repost.png" alt="">
-                    26
+                    <div class="widjet_icon_repost"></div>
+                    <span>26</span>
                 </div>
                 <div class="widjet_info_icon">
-                    <img src="./icon_like.png" alt="">
-                   10
+                    <div class="widjet_icon_like"></div>
+                   <span>10</span>
                </div>
                 <div class="widjet_info_icon">
-                 <img src="./icon_comment.png" alt="">
-                1</div>
+                 <div class="widjet_icon_comment"></div>
+                <span>1</span></div>
             </div>
-        </div>
-        <div class="widjet_link">
+        </section>
+        <section class="widjet_link">
             <p>Pinned from <a href="http://uncovet.com">uncovet.com</a></p>
-        </div>
-        <div class="widjet_comments">
-            <div class="widjet_comments_item">
-                <img src="" alt="">
-                <h2>Hannah Kern</h2>
-                <p>Thats SWEEEEEEET!</p>
+        </section>
+        <section class="widjet_comments">
+            <div class="old_widjet_comments">
+                 <div class="widjet_comments_item">  
+                    <p>Hannah Kern</p>
+                    <p>Thats SWEEEEEEET!</p>
+                </div>                
+                
             </div>
-            <form action=""></form>
-        </div>
+                       
+            <form class="new_widjet_comment" action="">
+                <textarea name="new_widjet_comment" maxlength="500">Eyes looks </textarea>
+            </form>
+            <div class="widjet_button_place">
+                <button id="widjet_button">Add</button>
+            </div>
+            
+        </section>
         
     </div>
 
