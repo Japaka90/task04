@@ -1,13 +1,14 @@
 .widjet {
     max-width: 240px;
-    height: 500px;
+    font-family: calibri;
     border-radius: 5px;
     overflow: hidden;
+    background-color: #f5f6f7;
+    color: black
 }
 
 .widjet img {
     width: 100%;
-
 }
 
 .a:before {
@@ -15,6 +16,34 @@
     display: inline-block;
     width: 15px;
     height: 15px;
-    background: url(../pics.png);
+    background: url();
     background-position: 21px 21px
+}
+
+.widjet_info{
+    padding: 5px;
+}
+
+.widjet_info_icon img {
+    height: 18px;
+    width: 18px
+}
+
+.widjet_info h2{
+    font-size: 18px;
+    margin: 0
+}
+
+.widjet_info_icon {
+    display: inline-block
+}
+
+.widjet_link {
+    border-top: solid 1px #ecedee;
+    border-bottom: solid 1px #ecedee;
+}
+
+.widjet_comments {
+    background-color: #eff0f1;
+    height: 200px
 }
